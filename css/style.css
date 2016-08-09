@@ -1,0 +1,110 @@
+#formSiteInfos p{
+    width: 100%;
+}
+
+#formSiteInfos p label{
+    float: left;
+    margin: 5px;
+    width: 100%;
+    font-weight: bold ;
+}
+#formSiteInfos label.label-radio{
+    font-weight: bold ;
+    width: 140px;
+}
+
+#formSiteInfos p input{
+    float: left;
+    margin: 5px;
+    width: 300px;
+}
+
+#accordion{
+    width: 30%!important;
+    //float: left ;
+    width: 100%;
+}
+
+.tabs {
+    float: left!important;
+}
+
+.clear-both{
+    clear: both ;
+    height: 10px ;
+}
+
+.ui-accordion .ui-accordion-content{
+    height: 750px!important;
+}
+
+.add-btn-url{
+    width: 200px;
+    height: 50px ;
+    background: #007fff ;
+    text-decoration: none ;
+    color: #FFF ;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px ;
+    border: 1px solid #003eff ;
+    font-weight: bold ;
+}
+
+/*ICON*/
+.icon {
+    position: relative;
+    width:16px;
+    height:16px;
+    margin: 16px;
+}
+.icon-plus {
+    background-color: #000;
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top:0;
+    left:0;
+    font-size: 11px ;
+}
+.icon-plus:after {
+    background-color: #fff;
+    width: 8px;
+    height: 2px;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    position: absolute;
+    top:7px;
+    left: 4px;
+      content:"";
+}
+.icon-plus:before {
+    background-color: #fff;
+    width: 2px;
+    height: 8px;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    position: absolute;
+    top:4px;
+    left: 7px;
+      content:"";
+}
+
+.icon-minus {
+    background-color: red;
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    width: 16px;
+    height: 16px;
+    float: right;
+    text-align: center;
+    color: #FFF ;
+
+}
