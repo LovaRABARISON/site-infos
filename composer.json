@@ -1,0 +1,19 @@
+{
+    "name": "akileads/site-infos",
+    "description": "Site information Plugins Wordpress Pour Akileads",
+    "type": "librairy",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lova RABARISON",
+            "email": "lova.rabarison@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "config": {
+    	"vendor-dir": "./"
+    }
+    
+}
